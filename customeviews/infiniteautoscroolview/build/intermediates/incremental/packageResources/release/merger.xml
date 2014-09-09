@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="D:\workspace\GitHub\CustomeViewDemo\customeviews\infiniteautoscroolview\src\main\res" >
+            <file
+                path="D:\workspace\GitHub\CustomeViewDemo\customeviews\infiniteautoscroolview\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="page_margin" >10dp
+                </dimen>
+            </file>
+            <file
+                path="D:\workspace\GitHub\CustomeViewDemo\customeviews\infiniteautoscroolview\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="word" >Word
+                </string>
+                <string name="app_name" >SuperAutoScrollView
+                </string>
+                <string name="recycled" >Recycled?
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="position" >Position
+                </string>
+            </file>
+            <file
+                path="D:\workspace\GitHub\CustomeViewDemo\customeviews\infiniteautoscroolview\src\main\res\values\vpi__attrs.xml"
+                qualifiers="" >
+                <attr
+                    name="centered"
+                    format="boolean" />
+                <attr
+                    name="unselectedColor"
+                    format="color" />
+
+                <declare-styleable name="CirclePageIndicator" >
+
+                    <!-- Whether or not the indicators should be centered. -->
+                    <attr name="centered" />
+                    <!-- Color of the filled circle that represents the current page. -->
+                    <attr
+                        name="fillColor"
+                        format="color" />
+                    <!-- Color of the filled circles that represents pages. -->
+                    <attr
+                        name="pageColor"
+                        format="color" />
+                    <!-- Orientation of the indicator. -->
+                    <attr name="android:orientation" />
+                    <!-- Radius of the circles. This is also the spacing between circles. -->
+                    <attr
+                        name="radius"
+                        format="dimension" />
+                    <!-- Whether or not the selected indicator snaps to the circles. -->
+                    <attr
+                        name="snap"
+                        format="boolean" />
+                    <!-- Color of the open circles. -->
+                    <attr
+                        name="strokeColor"
+                        format="color" />
+                    <!-- Width of the stroke used to draw the circles. -->
+                    <attr name="strokeWidth" />
+                    <!-- View background -->
+                    <attr name="android:background" />
+                </declare-styleable>
+
+                <attr
+                    name="strokeWidth"
+                    format="dimension" />
+                <attr
+                    name="selectedColor"
+                    format="color" />
+
+                <declare-styleable name="ViewPagerIndicator" >
+
+                    <!-- Style of the circle indicator. -->
+                    <attr
+                        name="vpiCirclePageIndicatorStyle"
+                        format="reference" />
+                    <!-- Style of the icon indicator's views. -->
+                    <attr
+                        name="vpiIconPageIndicatorStyle"
+                        format="reference" />
+                    <!-- Style of the line indicator. -->
+                    <attr
+                        name="vpiLinePageIndicatorStyle"
+                        format="reference" />
+                    <!-- Style of the title indicator. -->
+                    <attr
+                        name="vpiTitlePageIndicatorStyle"
+                        format="reference" />
+                    <!-- Style of the tab indicator's tabs. -->
+                    <attr
+                        name="vpiTabPageIndicatorStyle"
+                        format="reference" />
+                    <!-- Style of the underline indicator. -->
+                    <attr
+                        name="vpiUnderlinePageIndicatorStyle"
+                        format="reference" />
+                </declare-styleable>
+            </file>
+            <file
+                path="D:\workspace\GitHub\CustomeViewDemo\customeviews\infiniteautoscroolview\src\main\res\values\vpi__defaults.xml"
+                qualifiers="" >
+                <dimen name="default_circle_indicator_radius" >3dp
+                </dimen>
+
+                <color name="default_circle_indicator_fill_color" >#FFFFFFFF
+                </color>
+                <color name="default_circle_indicator_page_color" >#00000000
+                </color>
+
+                <bool name="default_circle_indicator_snap" >
+false
+                </bool>
+
+                <color name="default_circle_indicator_stroke_color" >#FFDDDDDD
+                </color>
+
+                <integer name="default_circle_indicator_orientation" >
+0
+                </integer>
+
+                <bool name="default_circle_indicator_centered" >
+true
+                </bool>
+
+                <dimen name="default_circle_indicator_stroke_width" >1dp
+                </dimen>
+            </file>
+        </source>
+        <source path="D:\workspace\GitHub\CustomeViewDemo\customeviews\infiniteautoscroolview\build\generated\res\rs\release" />
+        <source path="D:\workspace\GitHub\CustomeViewDemo\customeviews\infiniteautoscroolview\build\generated\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="D:\workspace\GitHub\CustomeViewDemo\customeviews\infiniteautoscroolview\src\release\res" />
+    </dataSet>
+
+</merger>
