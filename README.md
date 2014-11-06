@@ -3,10 +3,6 @@ CommonCustomeView
 
 This is a repository collect custome views used in my project or  from other project.
 
-**auto-scroll-viewpager**  
-This project is inspired by the [auto-scroll-viewpager](https://github.com/Trinea/android-auto-scroll-view-pager) of [Trinea](https://github.com/Trinea). Use the [salvage](https://github.com/JakeWharton/salvage) lib which the implementation of Generic view recycler and ViewPage PagerAdapter .
-It contains a cycle pager indicator seperated from ViewPagerIndicator below the viewpager.The page is still scrolling forward and the indicator is cycle.
-
 **ScrollListView/ScrollGridView**    
 Encapsulate the ListView/GridView,it can measure the height by itself,avoid the question that can't display list/grid view completely.
 
